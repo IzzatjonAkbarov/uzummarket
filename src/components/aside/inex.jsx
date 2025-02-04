@@ -36,8 +36,8 @@ const Aside = ({ valueoftherange, handleChange }) => {
         <p>tovar narxi: {valueoftherange} so'm</p>
         <input
           type="range"
-          min="0"
-          max="100"
+          min="100000"
+          max="10000000"
           className="w-full"
           value={valueoftherange}
           onChange={(event) => handleChange(event)}

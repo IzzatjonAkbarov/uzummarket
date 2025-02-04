@@ -48,7 +48,9 @@ const Card = ({
 
         {/* Product Details */}
         <div className="p-4">
-          <h3 className="mt-2 text-lg font-semibold leading-tight">{title}</h3>
+          <h3 className="mt-2 text-lg font-semibold leading-tight">
+            {product_name}
+          </h3>
           <div className="flex items-center text-sm text-gray-500 mt-1">
             ⭐ {rating} <span className="ml-1">({reviews_count} отзыва)</span>
           </div>
